@@ -12,6 +12,9 @@ It uses face recognition technology to identify individuals through the computer
 
 ## Project Structure
 
+├── Images Basic/ # Contains images of known individuals
+├── basic.py # Face recognition functionality and testing
+├── Attendance.py # Main application for real-time attendance marking
 
 ### 🔹 `Images Basic/`
 
