@@ -52,3 +52,14 @@ pip install face_recognition opencv-python numpy dlib
 
 cmake is also required.
 
+
+## 📝 Credits & Inspiration
+
+This project was inspired by and based on the following resources:
+
+- 📖 [Machine Learning is Fun! Part 4: Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78).
+- 🎥 [FACE RECOGNITION + ATTENDANCE PROJECT](https://www.youtube.com/watch?v=sz25xxF_AVE).
+
+Special thanks to the authors for sharing their work!
+
+
