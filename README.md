@@ -48,6 +48,7 @@ Before running the project, ensure you have the required Python packages install
 
 ```bash
 pip install face_recognition opencv-python numpy dlib
+```
 
 cmake is also required.
 
