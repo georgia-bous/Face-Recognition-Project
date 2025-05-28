@@ -30,7 +30,7 @@ Use this file to:
 - Test image-to-image face matching
 - Understand how the recognition logic works before integrating into the live system
 
-### 🔹 `Attendance.py`
+### 🔹 `AttendanceProject.py`
 
 This is the main application script.  
 It continuously captures frames from the webcam and performs the following:
@@ -38,7 +38,7 @@ It continuously captures frames from the webcam and performs the following:
 1. Detects faces in the video stream
 2. Compares detected faces with known faces from `Images Basic/`
 3. If a match is found and the person is not already marked present:
-   - Logs their name and timestamp into `Attendance.csv`
+   - Logs their name and timestamp into `attendance.csv`
 
 ---
 
@@ -47,5 +47,7 @@ It continuously captures frames from the webcam and performs the following:
 Before running the project, ensure you have the required Python packages installed:
 
 ```bash
-pip install face_recognition opencv-python numpy
+pip install face_recognition opencv-python numpy dlib
+
+cmake is also required.
 
